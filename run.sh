@@ -48,7 +48,7 @@ if [ ! -d /ark/server  ] || [ ! -f /ark/server/version.txt ];then
 	mkdir -p /ark/server/ShooterGame/Content/Mods
 	mkdir -p /ark/server/ShooterGame/Binaries/Linux/
 	touch /ark/server/ShooterGame/Binaries/Linux/ShooterGameServer
-	arkmanager install
+	arkmanager install --verbose --dots
 	# Create mod dir
 else
 
