@@ -4,18 +4,18 @@ ark:
   environment:
     - SESSIONNAME=Ark Docker
     - SERVERMAP=TheIsland
-    - SERVERPASSWORD="" 
+    - SERVERPASSWORD=""
     - ADMINPASSWORD=adminpassword
     - BACKUPONSTART=1
     - UPDATEONSTART=1
-    - TZ=America/Chicago
+    - TZ=Asia/Tokyo
     - GID=1000
     - UID=1000
   volumes:
     - /my/path/to/ark:/ark
   ports:
-   - 7778:7778/udp
-   - 7778:7778
-   - 27015:27015/udp
-   - 27015:27015
-   - 32330:32330
+    - 7778:7778/udp
+    - 7778:7778
+    - 27015:27015/udp
+    - 27015:27015
+    - 32330:32330
